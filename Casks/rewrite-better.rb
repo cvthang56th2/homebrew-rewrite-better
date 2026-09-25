@@ -1,6 +1,6 @@
 cask "rewrite-better" do
-  version "1.0.8"
-  sha256 "7542b3443124460146bc8afb2985a46b750da0f6b4340c9e60a243ab4042b21a"
+  version "1.0.9"
+  sha256 "8c1628707884fb73e17e6c9e64eb33b2a84a5160d6d1cca451336cbdf724925c"
 
   url "https://github.com/cvthang56th2/rewrite-better/releases/download/v#{version}/RewriteBetter-#{version}.dmg"
   name "Rewrite Better"
