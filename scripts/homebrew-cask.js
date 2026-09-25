@@ -1,7 +1,9 @@
 const fs = require("fs");
 const crypto = require("crypto");
 
-const INSTALL_COMMAND = "brew install --cask cvthang56th2/rewrite-better/rewrite-better";
+const INSTALL_COMMAND = `brew tap cvthang56th2/rewrite-better
+brew trust cvthang56th2/rewrite-better
+brew install --cask rewrite-better`;
 
 function renderHomebrewCask({ version, sha256 }) {
   const ver = String(version || "").trim().replace(/^v/i, "");
