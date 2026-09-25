@@ -7,7 +7,7 @@ cask "rewrite-better" do
   desc "Rewrite, format, and reply from the macOS menu bar"
   homepage "https://rewrite-better-ai.vercel.app/"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "RewriteBetter.app"
 
